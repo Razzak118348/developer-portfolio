@@ -14,6 +14,8 @@
      justify-content: space-between;
     align-items: center;
     /* this style use to the content take in center */
+    margin: 0 200px; 
+    /* upore niche 0 ar left right 200px  */
  }
 
  .nav-title {
@@ -47,4 +49,11 @@
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+ }
+ /* header related style  */
+ .header{
+    background-color: hwb(25 95% 0%);
+ }
+ .banner{
+    padding: 50px 30px 30px 150px;
  }
