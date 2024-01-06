@@ -1,0 +1,50 @@
+ /* common shared style  */
+ body {
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ .primary-text {
+     color: #FD6E0A;
+ }
+
+ /* nav related styles */
+ nav {
+     display: flex;
+     /* the justify-content use to creat space between parrent and child */
+     justify-content: space-between;
+    align-items: center;
+    /* this style use to the content take in center */
+ }
+
+ .nav-title {
+     color: black;
+     font-size: 45px;
+     font-weight: 800;
+
+ }
+
+ nav>ul {
+     display: flex;
+     align-items: center;
+ }
+
+ nav li {
+     list-style: none;
+     margin-right: 50px;
+     color: #474747;
+    
+ }
+
+ nav a {
+     text-decoration: none;
+ }
+
+ .btn-primary {
+     background-color: #FD6E0A;
+     color: white;
+     border: 0;
+     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+ }
