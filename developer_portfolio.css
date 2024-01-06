@@ -121,6 +121,20 @@ main{
     color: #757575;
     font-size: 20px;
 }
+ 
+#what{
+    padding: 30px 150px;
+}
+
+.skill{
+    color:#FFF;
+    display: flex;
+    display: inline;
+}
+.icon{
+    width: 44px;
+height: 44px;
+}
 
  /* about section style  */
 
