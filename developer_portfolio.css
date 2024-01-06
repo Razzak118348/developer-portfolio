@@ -105,6 +105,22 @@
  }
 
  /* main section style  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
 
  /* about section style  */
 
