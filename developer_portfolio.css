@@ -92,8 +92,10 @@
      color: #757575;
  }
  .profile-pic{
-    height:600px ;
-    width: 800px;
+    height:500px ;
+    width: 1000px;
+    padding: 0;
+    margin-bottom: 0;
  }
  p{
     font-size: 20px;
