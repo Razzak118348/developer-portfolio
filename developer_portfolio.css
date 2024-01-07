@@ -91,6 +91,10 @@
      margin-bottom: 30px;
      color: #757575;
  }
+ .profile-pic{
+    height:600px ;
+    width: 800px;
+ }
  p{
     font-size: 20px;
  }
@@ -148,6 +152,7 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
  }
+ 
 
  /* skill related style  */
  #what{
@@ -158,6 +163,10 @@ line-height: 30px; /* 166.667% */
 .icon{
     width: 44px;
 height: 44px;
+}
+#linkedin{
+    margin-top: 150px;
+ 
 }
 .skill-container{
     display: flex;
@@ -221,6 +230,7 @@ line-height: 28px;
 }
 footer{
     display: flex;
+    gap:100px;
     background-color: #FFF8F3;
     padding: 130px ;
     margin-top: 100px;
@@ -241,4 +251,22 @@ margin-bottom: 20px;
 }
 footer div a{
     margin-right: 30px;
+}
+.footer-colum{
+    width: 50%;
+}
+.box{
+    margin-top: 30px;
+    width: 461px;
+height: 64px;
+border-radius: 5px;
+background: #FFF;
+}
+#text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+background: #FFF;
 }
