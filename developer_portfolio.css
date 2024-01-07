@@ -70,7 +70,7 @@
 
  .banner .profile-pic {
      width: 500px;
-     
+
  }
 
  .banner-greeting {
@@ -169,8 +169,9 @@ line-height: 30px; /* 166.667% */
 height: 44px;
 }
 #linkedin{
-    height: 30px;
- 
+    
+border: 2px solid #99582a;
+
 }
 .skill-container{
     display: flex;
