@@ -54,9 +54,14 @@
  /* header related style  */
  .header {
      background-color: hwb(25 95% 0%);
-     background-image: url('/images/header_bg.png'),url('./images/developer.png');
+     background-image: url('./images/header_bg.png');
+     /* duita image::::
+      background-image:url('./images/header_bg.png'),url('./images/developer.png'); */
      background-repeat: no-repeat;
-     background-position: bottom right,top left;
+     background-position: bottom right;
+     /* background-position: bottom right,top left; */
+
+     
      /* 2 ta image background hisebe use korle koma dite hoibo */
  }
 
@@ -167,11 +172,6 @@ line-height: 30px; /* 166.667% */
 .icon{
     width: 44px;
 height: 44px;
-}
-#linkedin{
-    
-border: 2px solid #99582a;
-
 }
 .skill-container{
     display: flex;
